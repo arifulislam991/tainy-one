@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+
+body{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+/* header area */
+.tiny-header{
+    background: #fcdb00;
+    padding: 60px 0;
+}
+.tiny-header-top{
+
+}
+.tiny-menu-icon{
+
+}
+.tiny-social-icon{
+    color: #010101;
+    font-size: 20px;
+}
+.tiny-social-icon ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.tiny-social-icon ul li{
+    
+}
+.tiny-social-icon ul li a{
+    color: #010101;
+    font-size: 20px;
+    padding: 0 11px;
+}
+
+.tiny-header-buttom{
+
+}
+.tainy-slaide{
+    text-align: center;
+    padding: 175px 0 120px;
+}
+.tainy-slaide{}
+.tainy-slaide h2{
+    color: #010101;
+    font-size: 48px;
+}
+.tainy-slaide p{
+    color: #313841;
+    font-size: 20px;
+}
+.tainy-slaide ul{
+    display: flex;
+    justify-content: center;
+}
+.tainy-slaide ul li{
+    border: 2px solid #010101;
+    margin: 0 15px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.tainy-slaide ul li i{
+    color: #010101;
+    font-size: 35px;
+}
+.tainy-slaide a{
+    text-transform: uppercase;
+    color: #2d2d2d;
+    border: 2px solid #000000;
+    padding:10px 25px;
+    margin: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.tainy-slaide a:hover{
+    background: #010101;
+    color: #fff;
+}
