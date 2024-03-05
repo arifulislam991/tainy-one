@@ -19,7 +19,7 @@ ul{
     padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4 {
     font-weight: 700;
 }
 /* header area */
@@ -117,4 +117,79 @@ h1,h2,h3,h4,h5,h6{
     font-size: 15px;
     padding: 0 10px;
     text-transform:uppercase;
+}
+/* feature area */
+.tiny-feature{
+    background: #fff;
+    padding: 115px 0;
+}
+.tiny-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.tiny-title h3{
+    font-size: 32px;
+    color: #010101;
+}
+.tiny-title p{
+    font-size: 20px;
+    color: #313841;
+}
+.tiny-feature-content{
+    padding: 45px 0;
+}
+
+.tiny-feature-content h5{
+    font-size: 22px;
+    color: #010101;
+}
+.tiny-feature-content p{ 
+    font-size: 16px;
+    color: #898989;
+}
+.tiny-mobail{
+    position: relative ;
+}
+.tiny-mobail img{
+    width: 100%;
+}
+.tiny-feature-logo{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* footer area  */
+.tiny-footer{
+    background: #010101;
+    padding: 115px 0;
+}
+.tiny-footer .tiny-title h3{
+    color: #fcdb00;
+}
+.tiny-subscription{}
+.tiny-subscription form{
+    display: flex;
+    justify-content: space-between;
+}
+.tiny-mail{
+    width: 90%;
+}
+.tiny-mail-btn{}
+.tiny-mail-btn input{
+    background: #fcdb00;
+    font-weight: 700;
+    color: #010101;
+}
+.tiny-mail-btn input:hover{
+    background: #b69e05 !important;
+    
+}
+.tiny-footer-item{
+    margin-top: 120px;
+}
+.tiny-footer-item ul li,
+.tiny-footer-item ul li a{
+    color: #fff;
 }

@@ -1,3 +1,9 @@
+@media (max-width: 1199px){
+    .tiny-mail{
+        width: 85%;
+    }
+}
+
 @media (max-width: 991px) {
     .tiny-social-icon{
         display: none;
@@ -10,5 +16,27 @@
     .tiny-follow span{
         font-size: 20px;
         color: #010101;
+    }
+    /* feature area*/
+    .tiny-feature-content{
+        padding: 20px 0;
+    }
+    /* footer area */
+    .tiny-footer-item ul{
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 773px){
+    .tiny-mail{
+        width: 80%;
+    }
+}
+@media (max-width: 512px){
+    .tiny-subscription form{
+        display: block;
+    }
+    .tiny-mail{
+        width: 100%;
+        margin-bottom: 15px;
     }
 }
