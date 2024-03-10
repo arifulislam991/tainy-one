@@ -193,3 +193,16 @@ h1,h2,h3,h4 {
 .tiny-footer-item ul li a{
     color: #fff;
 }
+.footer-editor{
+    text-align: center;
+    background-color: #fcdb00;
+    padding: 15px 0;
+}
+.containerr p a{
+    text-transform: uppercase;
+    padding: 0 10px;
+    color: red;
+}
+.containerr p{
+    color: #fff;
+}
